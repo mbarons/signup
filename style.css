@@ -1,0 +1,107 @@
+html {
+    height: 100vh;
+    width: 100vw;
+    font-family: Roboto;
+}
+
+body {
+    display: flex;
+    background-color: #e3f1ee;
+    margin: 0;
+    
+
+}
+
+.left-sec {
+    width: 35vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    background-image: url("images/pexels-giuseppe-macri-2005726936-29208377.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} 
+
+.overlay {
+    width: 100%;
+    height: 150px;
+    background: rgba(0,0,0,0.35);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 400px;
+}
+
+.overlay p {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #c0f0ee;
+    text-shadow: .1em .1em 0 hsl(200 50% 30%);}
+
+.forms-top {
+    padding-top: 130px;
+    padding-left: 30px;
+    padding-right: 300px;
+    background-color: #e3f1ee;
+    background-image: linear-gradient(0deg, #e3f1ee 0%, #b0eeec 100%);
+    font-size: 24px;
+}
+
+.right-sec {
+    width: 65vw;
+
+}
+
+.forms-sec {
+    padding-left: 30px;
+    background-color: white;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+    padding-bottom: 30px;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+}
+.input {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 400px;
+    height: 20px;
+    border-radius: 5px;
+    border: black solid 1px;
+}
+
+.forms-bottom {
+    padding-left: 30px;
+    background-color: #e7f1ef;
+    padding-top: 25px;
+}
+
+img {
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+.forms-sec p {
+    width: 100%;
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+
+button {
+    background-color: #588a80;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    color: white;
+    font-weight: 900;
+    font-size: 14px;
+    cursor: pointer;
+}
